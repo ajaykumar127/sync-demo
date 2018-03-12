@@ -1,6 +1,5 @@
 /**
-* @author	   	Ben Edwards (ben@edwards.nz)
-* @date		 	2016-05-31
+
 * @description  Test class for the mc_SubscriptionSyncBatch class
 * 
 * CHANGE LOG
@@ -10,8 +9,7 @@ public class mc_SubscriptionSyncBatchTest {
 
 
 	/**
-	*   @author		  Ben Edwards (ben@edwards.nz)
-	*   @description  Test scenario of processing batch for Contacts
+	
 	**/
 	@isTest
 	static void testContactBatchProcessingSubscribe () {
@@ -31,8 +29,7 @@ public class mc_SubscriptionSyncBatchTest {
 
 
 	/**
-	*   @author		  Ben Edwards (ben@edwards.nz)
-	*   @description  Test scenario of processing batch for Leads
+
 	**/
 	@isTest
 	static void testLeadBatchProcessingUnsubscribe () {
@@ -55,8 +52,7 @@ public class mc_SubscriptionSyncBatchTest {
 
 
 	/**
-	*   @author		  Ben Edwards (ben@edwards.nz)
-	*   @description  Simple method to test scheduling the class
+
 	**/
 	@isTest
 	static void testSchedulable () {

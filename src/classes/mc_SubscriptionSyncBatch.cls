@@ -1,6 +1,5 @@
 /**
-* @author	   Ben Edwards (ben@edwards.nz)
-* @date		 2016-05-31
+
 * @description  Batch class to execute the physical callout of the update to Marketing Cloud
 * 
 * CHANGE LOG
@@ -75,8 +74,7 @@ public class mc_SubscriptionSyncBatch implements Database.Batchable<sObject>, Sc
 
 
 	/**
-	*   @author		 	Ben Edwards (ben@cloudinit.nz)
-	*   @description	Execute callout asyncronously to MC API
+
 	**/
 	private String executeUnSubReSubCallout (Id recordId, Boolean isUnsub) {
 

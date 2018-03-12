@@ -1,6 +1,4 @@
 /**
-* @author       Ben Edwards (ben@edwards.nz)
-* @date         2016-05-31
 * @description  Trigger for the Lead object to process opt-ins and opt-outs
 * 
 * CHANGE LOG
